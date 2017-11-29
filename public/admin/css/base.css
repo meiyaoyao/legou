@@ -3,8 +3,18 @@ html,
 body {
     height: 100%;
 }
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
-
+a{
+    text-decoration: none;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
 .body-color{
     background-color: #222d32;
 }
@@ -14,3 +24,99 @@ body {
 .panel h4 {
     text-align: center;
 }
+/* 首页样式 */
+.lt-aside{
+    height: 100%;
+    width: 180px;
+    background-color: #222d32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition:all 1s;
+}
+.lt-aside.now{
+    left: -180px;
+}
+.brand a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    background-color: #367fa9;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+}
+.user{
+   width: 180px;
+   height: 150px;
+}
+.user img{
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 30px auto 0;
+}
+.user p{
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.nav a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    color:#ccc;
+    border: 3px solid transparent;
+}
+.nav .child a{
+    padding-left: 50px;
+}
+.nav a .now{
+     border-left-color: #069;
+     background-color: #1d1f21;
+     color: #fff;
+}
+.lt-main {
+    height: 100%;
+    width: 100%;
+    padding-left: 180px;
+    padding-top: 70px;
+    transition:all 1s;
+}
+.lt-main.now{
+    padding-left: 0;
+}
+.lt-main .topbar{
+    width: 100%;
+    height:50px;
+    background: #3c8dbc;
+    position: fixed;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+    padding: 0 20px 0 200px;
+    z-index: 666;
+    transition:all 1s;
+}
+.topbar.now{
+    padding-left: 20px;
+}
+.topbar a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+}
+/* 数据图部分样式 */
+.pic_left,
+.pic_right {
+    width: 45%;
+    height: 400px;
+}
+
