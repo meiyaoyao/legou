@@ -77,7 +77,7 @@ a:link,a:visited,a:hover,a:active{
 .nav .child a{
     padding-left: 50px;
 }
-.nav a .now{
+.nav a.now{
      border-left-color: #069;
      background-color: #1d1f21;
      color: #fff;
@@ -119,4 +119,5 @@ a:link,a:visited,a:hover,a:active{
     width: 45%;
     height: 400px;
 }
+/* user 部分样式 */
 
