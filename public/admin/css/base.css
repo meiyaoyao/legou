@@ -122,7 +122,9 @@ a:link,a:visited,a:hover,a:active{
     width: 45%;
     height: 400px;
 }
-
+ .lt_content>table>tbody>tr>td {
+    vertical-align: middle;
+}
 /* 模态框上传图片地方的隐藏按钮样式，奇淫 */
 .fileupload_box {
     width: 82px;
